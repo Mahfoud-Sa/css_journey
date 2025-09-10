@@ -107,3 +107,48 @@ section{
     font-size: 1.7em;
     padding-right: 30px;
 }
+.title{
+    display: flex;
+    justify-content: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #f0f0f0;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /50%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+        transition: all 0.3s ease;
+
+} 
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(1 1 1 /70%);
+    transition: all 0.5s ease;
+}
+.icon{
+    color: #3a6cf4;
+    font-size: 8em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    text-align: center;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
