@@ -90,10 +90,20 @@ section{
     color: #fff;
     border-radius: 15px;
     font-weight: 500;
-    transition: all 0.3s ease;
+    transition: all 0.7s ease;
     letter-spacing: 1px;
     font-size: 1.1em;
     font-weight: 600;
     display: inline-block;
     margin-bottom: 40px;
+}
+.main-btn:hover{
+    background-color: #601cfc;
+    transform: scale(1.1);
+}
+
+.social-icons a{
+    color:#fff;
+    font-size: 1.7em;
+    padding-right: 30px;
 }
