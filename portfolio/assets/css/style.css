@@ -152,3 +152,56 @@ section{
     color: #333;
     margin-bottom: 15px;
 }
+.projects{
+    background-color: #333;
+}
+.projects .content{
+    display: flex;
+    margin-top: 30px;
+
+}
+.project-card{
+    background-color: #f0f0f0;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /50%);
+    border-radius: 10px;
+    border: 1px solid #fff;
+    padding: 25px;
+    margin: 15px;
+        transition: all 0.3s ease;
+        min-height: 14em;
+}
+.project-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(1 1 1 /70%);
+    transition: all 0.5s ease;
+}
+.project-image img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.project-info{
+    padding: 1em;
+}
+.project-category{
+    font-size: 0.8em;
+    color: #000;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.more-details{
+    text-decoration: none;
+    color: #3a6cf4;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.more-details:hover{
+    color: #601cfc;
+    transform: scale(1.1);
+}
