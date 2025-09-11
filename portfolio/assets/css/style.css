@@ -205,3 +205,10 @@ section{
     color: #601cfc;
     transform: scale(1.1);
 }
+.footer{
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
