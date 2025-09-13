@@ -30,7 +30,12 @@ a{
     text-decoration: none;
     
 }
-
+/* Utilit classes */
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
 /*header starts*/
 #header{
     position: fixed ;
@@ -65,3 +70,19 @@ a{
     transition: 0.3s;
 }
 /*header ends*/
+
+/* home start */
+#home{
+    
+    background: url('../imgs/home-bg.jpg')  center no-repeat;
+    background-size:100% ;
+    
+}
+#home .home-content{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   min-height: 100vh;
+   gap: 3rem;
+   align-items: center;
+}
+/* home end */
